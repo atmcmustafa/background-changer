@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Background Changer</title>
+
+    <style>
+        body {
+            transition: all 500ms ease-in;
+            background: #252525;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        button {
+            font-family: monospace;
+            border-radius: 30px;
+            background: purple;
+            color: #efefef;
+            border: none;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            margin-right: 20px;
+
+        }
+
+        .wrapper {
+            width: 400px;
+            height: 400px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #fff;
+            display: flex;
+            font-size: 43px;
+            color: #303030;
+            gap: 14px;
+            border-radius: 5px;
+            background: #eeeeee;
+
+        }
+    </style>
+</head>
+
+<body class="body">
+
+    <div class="wrapper">
+        <span id="text">#FFFFFF</span>
+        <button id="btn">Button</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
